@@ -1,0 +1,32 @@
+{
+  "name": "AZ-function-mnubo-js",
+  "version": "0.0.1",
+  "description": "Azure IoT hub integration",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mnubo/azure-iot-hub-integration"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "mnubo-sdk": "^1.7.0",
+    "uuid": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0",
+    "eslint": "^5.1.0",
+    "eslint-config-google": "^0.9.1",
+    "eslint-plugin-jasmine": "^2.2.0",
+    "jasmine": "^3.1.0",
+    "jasmine-core": "^3.1.0",
+    "jasmine-node": "^1.14.5"
+  },
+  "scripts": {
+    "lint": "eslint index.js",
+    "test": "jasmine-node spec"
+  },
+  "engines": {
+    "node": ">=6.9.1"
+  }
+}
